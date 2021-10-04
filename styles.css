@@ -63,10 +63,10 @@ body {
     width: 87.5%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12.5%;
+    padding-left: 1rem;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    background-color: #151515;
-    color: #dfdcd2;
+    background-color: Thistle;
+    color: #262626;
     max-width: 1400px;
     counter-reset: sidenote-counter;
 }
@@ -74,8 +74,8 @@ body {
 h1 {
     font-style: italic;
     font-weight: 400;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
     font-size: 3.2rem;
     line-height: 1;
 }
@@ -92,21 +92,10 @@ h2 {
 h3 {
     font-style: italic;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 2rem;
-    margin-bottom: 1rem;
-    line-height: 0.5;
-    color: inherit;
-}
-
-h4 {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     line-height: 1;
-    color: Tomato;
 }
 
 p.subtitle {
